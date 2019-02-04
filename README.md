@@ -45,7 +45,7 @@ type FooProps = {
 
 export default class Foo extends React.Component {
   props: FooProps
-}}
+}
 ```
 
 The output will be:
