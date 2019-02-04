@@ -7,8 +7,7 @@ type Props = {
   ys?: Array,
 };
 
-export default
-class ArrayTest extends React.Component<Props> {
+export default class ArrayTest extends React.Component<Props> {
 }
 `;
 
