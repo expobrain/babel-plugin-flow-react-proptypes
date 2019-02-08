@@ -79,6 +79,7 @@ function convertGenericToPropTypes(node, typeParamMapping, importedTypes, intern
 }
 
 export default function convertToPropTypes(node, importedTypes, internalTypes) {
+  if  (node.type === 'GenericTypeAnnotation' && node.start === 173) {debugger;}
   $debug('convertToPropTypes', node);
   let resultPropType;
 
