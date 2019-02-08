@@ -14,7 +14,6 @@ class C extends React.Component<Props> {
     return <div />;
   };
 }
-
 `;
 
 it('class_with_render_and_extended_prop_types', () => {
@@ -27,5 +26,7 @@ it('class_with_render_and_extended_prop_types', () => {
       "@babel/plugin-proposal-class-properties"
     ],
   }).code;
+
+  // expect(res).toMatch(/_defineProperty\(.*Object.assign\({}, _types\.bpfrpt_proptype_Props/);
   expect(res).toMatchSnapshot();
 });

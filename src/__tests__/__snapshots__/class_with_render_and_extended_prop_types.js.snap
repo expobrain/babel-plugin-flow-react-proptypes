@@ -50,5 +50,5 @@ function (_React$Component) {
   return C;
 }(_react.default.Component);
 
-_defineProperty(C, \\"propTypes\\", Object.assign({}, bpfrpt_proptype_BaseProps === _propTypes.default.any ? {} : _types.bpfrpt_proptype_Props, {}));"
+_defineProperty(C, \\"propTypes\\", Object.assign({}, _types.bpfrpt_proptype_Props === _propTypes.default.any ? {} : _types.bpfrpt_proptype_Props, {}));"
 `;
